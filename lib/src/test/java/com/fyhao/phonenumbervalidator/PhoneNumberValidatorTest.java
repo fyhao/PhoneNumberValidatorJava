@@ -5,7 +5,7 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class PhoneNumberValidatorTest {
     @Test void testForValidation() {
-        PhoneNumberValidatorLib lib = new PhoneNumberValidatorLib();
+        PhoneNumberValidator lib = new PhoneNumberValidator();
         assertTrue(lib.isValidPhoneNumber("1234"));
     }
 }
